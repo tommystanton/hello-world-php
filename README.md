@@ -25,6 +25,14 @@ dependencies.
 $ composer install
 ```
 
+# BUILD
+
+Run the tests like so:
+
+```text
+$ vendor/bin/phpunit tests/
+```
+
 # AUTHOR
 
 `Tommy Stanton <tommystanton@gmail.com>`

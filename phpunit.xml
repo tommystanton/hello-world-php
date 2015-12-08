@@ -1,3 +1,4 @@
 <phpunit
-    colors="true">
+    colors="true"
+    bootstrap="src/Hello.php">
 </phpunit>
