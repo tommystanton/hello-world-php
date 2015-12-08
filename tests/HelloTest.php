@@ -9,5 +9,9 @@ class HelloTest extends PHPUnit_Framework_TestCase {
     public function testInstantiation() {
         $this->assertInstanceOf('Hello', $this->hello);
     }
+
+    public function testGreet() {
+        $this->assertEquals('Hello world!', $this->hello->greet());
+    }
 }
 ?>
